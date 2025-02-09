@@ -25,6 +25,6 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     htmlFor: 'input',
-    children: '이메일',
+    children: 'email',
   },
 };

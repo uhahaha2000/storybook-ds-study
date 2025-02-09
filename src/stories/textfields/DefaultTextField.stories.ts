@@ -36,7 +36,7 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     id: "primary",
-    placeholder: "입력해주세요",
+    placeholder: "입력해주세요???",
     type: "text",
     isError: false,
     errorMessage: "다시 시도해주세요",
