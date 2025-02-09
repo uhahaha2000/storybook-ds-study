@@ -1,0 +1,27 @@
+yarn run v1.22.18
+$ storybook build --output-dir=/var/folders/sb/jcn49nks2jl4n3tlql1r8pkc0000gn/T/chromatic--8642-NSShHCL8x8sA
+[1m@storybook/core v8.5.3
+[22m
+info => Cleaning outputDir: [36m../../../../../../var/folders/sb/jcn49nks2jl4n3tlql1r8pkc0000gn/T/chromatic--8642-NSShHCL8x8sA[39m
+info => Loading presets
+info => Building manager..
+info => Manager built ([38;2;181;126;229m201 ms[39m)
+info => Building preview..
+info Using tsconfig paths for react-docgen
+[36mvite v6.1.0 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 117 modules transformed.
+[38;2;241;97;97m=> Failed to build the preview[39m
+[31mCould not resolve "./Header" from "src/stories/Page.tsx"[39m
+file: [36m./src/stories/Page.tsx[39m
+    at getRollupError (file://./node_modules/rollup/dist/es/shared/parseAst.js:397:41)
+    at error (file://./node_modules/rollup/dist/es/shared/parseAst.js:393:42)
+    at ModuleLoader.handleInvalidResolvedId (file://./node_modules/rollup/dist/es/shared/node-entry.js:21120:24)
+    at file://./node_modules/rollup/dist/es/shared/node-entry.js:21080:26
+
+[35m[1mattention[22m[39m => Storybook now collects completely anonymous telemetry regarding usage.
+This information is used to shape Storybook's roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+[36mhttps://storybook.js.org/telemetry[39m
+
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
