@@ -12,5 +12,18 @@ const config: StorybookConfig = {
     name: "@storybook/react-vite",
     options: {},
   },
+  refs: {
+     "external2-storybook": {
+      title: "External2 Storybook",
+      url: 'https://679de4f29bac5fac91afbb9f-xsuekloiie.chromatic.com/',
+      expanded: false, // Optional, true by default,
+    },
+    "external-storybook": {
+      title: "External Storybook",
+      url: 'https://master--5ccbc373887ca40020446347.chromatic.com/',
+      expanded: false, // Optional, true by default,
+    },
+   
+  }
 };
 export default config;
