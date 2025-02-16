@@ -21,6 +21,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    children: '에러메세지는 여기로 나옵니다.',
+    children: '에러메세지는 여기로 나옵니다. 크로마틱 배포 확인',
   },
 };
